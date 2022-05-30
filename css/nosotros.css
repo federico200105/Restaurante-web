@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+.nuestro-equipo{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.nuestro-equipo .container--flex{
+	align-items: flex-start;
+}
+.grupo__title{
+	font-family: 'Pacifico',cursive;
+  	font-size: 2em;
+  	text-align: center;
+  	font-weight: 100;
+  	margin: 30px;
+  	font-weight: 300;
+}
+.nuestro-equipo__title{
+	text-align: center;
+	margin-bottom:20px;
+	font-size: 1.5em;
+	font-family: 'Commissioner', sans-serif;
+	color:#DE423A;
+}
+.nuestro-equipo__img{
+	width:200px;
+	height:200px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin:auto;
+	margin-bottom: 20px;
+}
+.nuestro-equipo--txt{
+	padding:10px;
+}
+
+@media screen and (min-width:480px){
+.nuestro-equipo__img{
+	width:150px;
+	height:150px;
+}
+}
+
+@media screen and (min-width:768px){
+.nuestro-equipo__img{
+	width:220px;
+	height:220px;
+}
+}
+
+@media screen and (min-width:1024px){
+.nuestro-equipo__img{
+	width:305px;
+	height:305px;
+}
+.nuestro-equipo__title{
+	font-size: 2em;
+}
+.menu-link_select{
+	width:130px;
+	margin-left:4px;
+}
+.phone{
+	padding-bottom:5px;
+}
+}
+
+@media screen and (min-width:1600px){
+.nuestro-equipo__img{
+	width:400px;
+	height:400px;
+}
+}

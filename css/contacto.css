@@ -1,0 +1,96 @@
+/*h1{
+	text-align: center;
+	margin-bottom:20px;
+}
+.contenedor{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+	grid-column-gap: 20px;
+	grid-row-gap:50px;
+	justify-content: center;
+	margin-top:30px;
+}*/
+
+.contacto .container--flex{
+	align-items: flex-start;
+}
+
+.contact-info{
+padding:10px;
+padding-top:0;
+margin-bottom: 30px;
+border-bottom: 1px solid #9b9b9b;
+height:450px;
+}
+.contact-info .column__title{
+font-family: 'Pacifico', cursive;
+font-weight: 100;
+font-size: 1.66em;
+}
+
+.contact-info [class*="icon-"]{
+	font-size: 1.3em;
+	margin-right:7px;
+	position: relative;
+	top:5px;
+}
+
+.contact-info .social-icon{
+	justify-content: flex-start;
+	margin-bottom: 10px;
+}
+
+.contact-info .social-icon [class*="icon-"]{
+	background:black;
+	color:white;
+	margin-left:0;
+	margin-right: 15px;
+}
+
+.formulario{
+	padding:10px;
+	padding-top: 0;
+}
+
+.formulario--label, .formulario__input-txt, .formulario__textarea{
+	display: block;
+	width: 100%;
+}
+
+.formulario__input-txt{
+	padding:10px;
+	margin-bottom: 10px;
+}
+
+.formulario__textarea{
+	min-height: 100px;
+	min-width:100%;
+	max-width: 100%;
+	max-height: 200px;
+}
+
+.formulario__btn{
+	border: none;
+	cursor: pointer;
+	font-size: 1em;
+}
+
+@media screen and (min-width:480px){
+.contact-info p{
+font-size:1em;
+}
+.contact-info{
+	border-right: 1px solid #9b9b9b;
+	border-bottom:none;
+}
+}
+
+@media screen and (min-width:1024px){
+.menu-link_select{
+	width:150px;
+	margin-left:4px;
+}
+.phone{
+	padding-bottom:5px;
+}
+}
